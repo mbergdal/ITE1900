@@ -1,4 +1,4 @@
-package com.headcrest;
+package com.headcrest.car;
 
 public class Car {
     private Engine engine;

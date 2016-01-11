@@ -1,4 +1,4 @@
-package com.headcrest;
+package com.headcrest.car;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
