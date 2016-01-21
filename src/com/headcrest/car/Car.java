@@ -2,8 +2,10 @@ package com.headcrest.car;
 
 public class Car {
     //Private members
-    private Engine engine;
+    Engine engine;
     private Driver driver;
+    private String regNumber;
+    private int age;
 
     //Constructors
     public Car() {
@@ -34,5 +36,9 @@ public class Car {
 
     public void setDriver(Driver driver){
         this.driver = driver;
+    }
+
+    public static int getModelNumber(){
+        return 22;
     }
 }
