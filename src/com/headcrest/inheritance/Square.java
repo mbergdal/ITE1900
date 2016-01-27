@@ -14,4 +14,14 @@ public class Square extends GeometricObject {
     public void calculateArea(){
         area = heigth * length;
     }
+
+    @Override //Override
+    public String toString(){
+        return getColor() + " square";
+    }
+
+    //Overload
+    public String toString(String prefix){
+        return prefix + " " + super.toString();
+    }
 }

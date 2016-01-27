@@ -1,11 +1,15 @@
 package com.headcrest.inheritance;
 
 public abstract class GeometricObject {
-    String color;
-    double area;
+    private String color;
+    protected double area; //could also have access modificator default (nothing) in this example private - <default> - protected - public
 
     public GeometricObject(){
         color = "black";
+    }
+
+    public GeometricObject(String color){
+        this.color = color;
     }
 
     public double getArea(){
@@ -25,4 +29,9 @@ public abstract class GeometricObject {
     }
 
     public abstract void calculateArea();
+
+    @Override
+    public String toString(){
+        return "Geometric object";
+    }
 }
