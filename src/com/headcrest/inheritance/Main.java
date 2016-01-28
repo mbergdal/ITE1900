@@ -24,7 +24,6 @@ public class Main {
 
     //Example of generic programming
     private static void printWithPrefix(String prefix, Object object) {
-        //Square s = (Square)object;
         if (object instanceof Square) {
             Square square = (Square)object;
             String stringWithPrefix = square.toString(prefix); //Must do a cast here. (downcasting) Explain why...

@@ -10,11 +10,5 @@ public class Equals {
         }else{
             System.out.println("Not equal");
         }
-
-//        if (s1 == s2){
-//            System.out.println("Equal");
-//        }else{
-//            System.out.println("Not equal");
-//        }
     }
 }

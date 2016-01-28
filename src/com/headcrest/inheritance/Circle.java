@@ -20,14 +20,14 @@ public class Circle extends GeometricObject{
         return super.toString();
     }
 
-//    @Override
-//    public boolean equals(Object c){
-//        if (c instanceof Circle){
-//            if (this.radius == ((Circle)c).radius){
-//                return true;
-//            }
-//        }
-//
-//        return false;
-//    }
+    @Override
+    public boolean equals(Object c){
+        if (c instanceof Circle){
+            if (this.radius == ((Circle)c).radius){
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

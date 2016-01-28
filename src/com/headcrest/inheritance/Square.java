@@ -22,6 +22,6 @@ public class Square extends GeometricObject {
 
     //Overload
     public String toString(String prefix){
-        return prefix + " " + super.toString();
+        return prefix + " " + this.toString();
     }
 }
