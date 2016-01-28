@@ -17,7 +17,7 @@ public class Quotient {
             }catch (Exception e) {
                 System.out.println(e.getMessage());
             }finally{
-                System.out.println("Finally");
+                System.out.println("This is always called");
             }
         }
     }
